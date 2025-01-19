@@ -1,10 +1,14 @@
+import Router from "../Router";
 import "./App.css";
-import Home from "./pages/Home/Home";
+import Navbar from "./components/Navbar";
+import SettingsButton from "./components/SettingsButton";
 
 function App() {
   return (
     <>
-      <Home />
+      <Navbar />
+      <Router />
+      <SettingsButton />
     </>
   );
 }
